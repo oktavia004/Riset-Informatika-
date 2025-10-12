@@ -10,6 +10,8 @@ Dalam penelitian ini, penulis menggunakan beberapa metode machine learning untuk
 - Extreme Learning Machine (ELM-RBF): termasuk variasi k-means, k-medoids, dan mean shift clustering. 
 - Deep Learning (Residual Neural Networks / ResNet152v2): arsitektur CNN yang memanfaatkan transfer learning dari ImageNet.
 
+## **Alasan Paper 1 termasuk Method:**
+Karena bagian ini menjelaskan metode dan algoritma spesifik yang digunakan untuk melakukan klasifikasi gambar bakteri, seperti penerapan Extreme Learning Machine (ELM) dan Residual Neural Network (ResNet). Bagian ini tidak membahas latar belakang atau pemilihan data, melainkan berfokus pada proses teknis dan langkah-langkah analisis yang digunakan dalam penelitian untuk memproses data citra dan menghasilkan model klasifikasi otomatis.
 
 ## **Paper 2 Methodology**  
 **Judul:** *An analysis of the effects of various polarimetric features and decomposition algorithms on PolSAR image classification through CNN* \
@@ -23,3 +25,6 @@ a.) Skema 1: hanya menggunakan power-based PF (fitur terkait daya).\
 b.) Skema 2: menggunakan semua PF dari hasil dekomposisi.
 - Normalisasi & Input ke CNN: Fitur dinormalisasi lalu dimasukkan ke CNN (AlexNet, VGG, ResNet). Model dengan akurasi terbaik disimpan. 
 - Evaluasi & Interpretasi: Akurasi diukur dengan OA, AA, Kappa, confusion matrix. Lalu dilakukan analisis SHAP (Shapley Additive Explanations) untuk mengetahui kontribusi tiap fitur terhadap hasil klasifikasi.
+
+## **Alasan Paper 2 termasuk Methodology:**
+Bagian ini termasuk Methodology karena menjelaskan langkah-langkah teknis dan rancangan eksperimen yang digunakan dalam penelitian. Di bagian ini dijelaskan proses pengolahan citra PolSAR, mulai dari penerapan metode polarimetric decomposition (F3D, Y4D, RSD) untuk mengekstraksi fitur, proses normalisasi data, hingga penerapan CNN dan SHAP analysis untuk klasifikasi dan interpretasi hasil. Bagian ini tidak membahas teori atau latar belakang penelitian, melainkan berfokus pada prosedur, algoritma, dan parameter yang digunakan untuk mencapai tujuan analisis.
