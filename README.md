@@ -1,1 +1,1 @@
-# Tugas-Riset-Informatika
+# Tugas Riset Informatika
