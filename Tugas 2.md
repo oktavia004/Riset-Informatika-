@@ -16,10 +16,10 @@ Dalam penelitian ini, penulis menggunakan beberapa metode machine learning untuk
 **Link:** https://www.sciencedirect.com/science/article/pii/S2590123025032803
 
 ## **Methodology yang digunakan**
-- Pengolahan Data Awal: PolSAR image dilakukan multi-look filtering untuk mengurangi speckle noise sehingga menghasilkan matriks koherensi (T).\
-- Ekstraksi Fitur: Menggunakan tiga metode polarimetric decomposition (PD) klasik yaitu Freeman–Durden (F3D), Yamaguchi (Y4D), dan Reflection Symmetric Decomposition (RSD). Dari sini diperoleh berbagai polarimetric features (PF).\
-- Skema Eksperimen:\
-a.) Skema 1: hanya menggunakan power-based PF (fitur terkait daya).\
+- Pengolahan Data Awal: PolSAR image dilakukan multi-look filtering untuk mengurangi speckle noise sehingga menghasilkan matriks koherensi (T).
+- Ekstraksi Fitur: Menggunakan tiga metode polarimetric decomposition (PD) klasik yaitu Freeman–Durden (F3D), Yamaguchi (Y4D), dan Reflection Symmetric Decomposition (RSD). Dari sini diperoleh berbagai polarimetric features (PF).
+- Skema Eksperimen:
+a.) Skema 1: hanya menggunakan power-based PF (fitur terkait daya).
 b.) Skema 2: menggunakan semua PF dari hasil dekomposisi.
-- Normalisasi & Input ke CNN: Fitur dinormalisasi lalu dimasukkan ke CNN (AlexNet, VGG, ResNet). Model dengan akurasi terbaik disimpan.\
+- Normalisasi & Input ke CNN: Fitur dinormalisasi lalu dimasukkan ke CNN (AlexNet, VGG, ResNet). Model dengan akurasi terbaik disimpan. 
 - Evaluasi & Interpretasi: Akurasi diukur dengan OA, AA, Kappa, confusion matrix. Lalu dilakukan analisis SHAP (Shapley Additive Explanations) untuk mengetahui kontribusi tiap fitur terhadap hasil klasifikasi.
