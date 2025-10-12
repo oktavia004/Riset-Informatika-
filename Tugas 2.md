@@ -6,9 +6,9 @@
 
 ## **Methods yang digunakan:**
 Dalam penelitian ini, penulis menggunakan beberapa metode machine learning untuk klasifikasi gambar bakteri tanah:\
-·   	Classical Machine Learning: Support Vector Machine (SVM), Random Forest (RF), K-Nearest Neighbor (KNN), Multilayer Perceptron (MLP).\
-·   	Extreme Learning Machine (ELM-RBF): termasuk variasi k-means, k-medoids, dan mean shift clustering.\
-·   	Deep Learning (Residual Neural Networks / ResNet152v2): arsitektur CNN yang memanfaatkan transfer learning dari ImageNet.
+- Classical Machine Learning: Support Vector Machine (SVM), Random Forest (RF), K-Nearest Neighbor (KNN), Multilayer Perceptron (MLP).\
+- Extreme Learning Machine (ELM-RBF): termasuk variasi k-means, k-medoids, dan mean shift clustering.\
+- Deep Learning (Residual Neural Networks / ResNet152v2): arsitektur CNN yang memanfaatkan transfer learning dari ImageNet.
 
 
 ## **Paper 2 Methodology**  
